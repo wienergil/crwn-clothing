@@ -5,12 +5,20 @@
   height: 350px;
   align-items: center;
 
+
+
+  &:hover {
+    cursor: pointer;
+    opacity: 70%;
+  }
+
   .image {
     width: 100%;
     height: 95%;
     background-size: cover;
     background-position: center;
     margin-bottom: 5px;
+
   }
 
   .collection-footer {
@@ -23,6 +31,7 @@
     .name {
       width: 90%;
       margin-bottom: 15px;
+
     }
 
     .price {
